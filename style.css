@@ -1,0 +1,21 @@
+h1 {
+	color: blue;
+}
+
+header {
+	background-color: #79bef6;
+	padding: 50px;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+}
+
+footer {
+	background-color: #79bef6;
+	padding: 10px;
+	text-align: center;
+	font-size: 15px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
