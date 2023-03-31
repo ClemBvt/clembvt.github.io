@@ -5,6 +5,14 @@
 		
 	</head>
 	<body>
+		<?php
+			// the message
+			$msg = "L'inclinaison maximale de la maison est dépassé";
+
+			// send email
+			mail("clement.brevet.35@gmail.com","Attention inclinaison de la maison",$msg);
+			echo "Le mail est envoyé";
+		?>
 		<header>
 			<h1>Inclinaison de la maison flottante</h1>
 		</header>
